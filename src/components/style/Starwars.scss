@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    .interactable {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        &>:first-child{
+            &>:first-child{
+                padding: 1rem;
+            }
+            &>:nth-child(2){
+                padding: 1rem;
+                font-size: 1rem;
+                border-radius: 0 20px 20px 0;
+            }
+            margin: 0 1rem 1rem 1rem;
+        }
+        &>:nth-child(2){
+            border: black 2px solid;
+            padding: 1rem;
+            margin: 0 1rem 1rem 1rem;
+            button {
+                margin-top: 1rem;
+                padding: 1rem;
+            }
+        }
+    }
+    .charList {
+        width: 50vw;
+        padding: 1rem;
+        margin: 0 1rem 1rem 1rem;
+        border: black 2px solid;
+        .charCard {
+            border-bottom: 2px solid black;
+            padding-bottom: 1rem;
+        }
+    }
+}

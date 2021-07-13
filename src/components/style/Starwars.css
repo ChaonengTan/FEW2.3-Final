@@ -1,0 +1,40 @@
+.content {
+  display: flex;
+}
+.content .interactable {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.content .interactable > :first-child {
+  margin: 0 1rem 1rem 1rem;
+}
+.content .interactable > :first-child > :first-child {
+  padding: 1rem;
+}
+.content .interactable > :first-child > :nth-child(2) {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0 20px 20px 0;
+}
+.content .interactable > :nth-child(2) {
+  border: black 2px solid;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+}
+.content .interactable > :nth-child(2) button {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.content .charList {
+  width: 50vw;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  border: black 2px solid;
+}
+.content .charList .charCard {
+  border-bottom: 2px solid black;
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=Starwars.css.map */
